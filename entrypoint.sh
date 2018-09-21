@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-cp $HOME/.jira-cl.json ~/.jira-cl.json
-
-jira "$@"
+COMMAND="$@ --login=$USERNAME --endpoint=$HOST"
+echo "$COMMAND"
+eval jira "$COMMAND"
