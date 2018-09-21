@@ -7,4 +7,7 @@ LABEL "com.github.actions.color"="6f42c1"
 
 RUN yarn global add jira-cli
 
-ENTRYPOINT ["jira"]
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
