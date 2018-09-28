@@ -1,6 +1,6 @@
-# GitHub Task for Jira
+# Dockerfile wrapper for Jira
 
-The GitHub Task for [Jira](https://www.atlassian.com/software/jira) task wraps the [Netflix-Skunkworks go-jira](https://github.com/Netflix-Skunkworks/go-jira) Open Source Jira CLI to enable Jira commands.
+A Docker container for [Jira](https://www.atlassian.com/software/jira) that wraps the [Netflix-Skunkworks go-jira](https://github.com/Netflix-Skunkworks/go-jira) Open Source Jira CLI to enable Jira commands.
 
 ## Usage
 
