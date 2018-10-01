@@ -1,10 +1,5 @@
 FROM golang:alpine
 
-LABEL "com.github.actions.name"="GitHub Deployer for JIRA"
-LABEL "com.github.actions.description"="Wraps the JIRA CLI to enable common JIRA commands."
-LABEL "com.github.actions.icon"="upload-cloud"
-LABEL "com.github.actions.color"="6f42c1"
-
 RUN apk update && \
     apk add git jq
 
